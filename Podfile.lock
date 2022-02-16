@@ -1,0 +1,16 @@
+PODS:
+  - SegementSlide (2.2.1)
+
+DEPENDENCIES:
+  - SegementSlide (= 2.2.1)
+
+SPEC REPOS:
+  trunk:
+    - SegementSlide
+
+SPEC CHECKSUMS:
+  SegementSlide: ef8ab4951d14197c95d4413d718c6eca0702762e
+
+PODFILE CHECKSUM: 99f7c94a573a48851d10febcb0987fa6d947e3d5
+
+COCOAPODS: 1.11.0

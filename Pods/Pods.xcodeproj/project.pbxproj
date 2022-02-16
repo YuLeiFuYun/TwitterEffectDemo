@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E86E597AF351B1C7CBFC4ADE69AFEE /* Pods-TwitterEffectDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B693145A01BB75A2EE716E4DB184EA /* Pods-TwitterEffectDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0663B58D435C132AEDD0F2BC9EFF3742 /* String+Bounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BAD920774AACF253248DC07DA9A320 /* String+Bounding.swift */; };
+		076CCE111CB3E6CCC5C2B10755FDEC02 /* SegementSlideViewController+setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C030C9F7D5A2863A0D1E2B1DE8C61 /* SegementSlideViewController+setup.swift */; };
+		17E076CD8ACD73C1B4EE835758D36E27 /* SegementSlide-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEECE03ABE926BD828508F4051D358FE /* SegementSlide-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C6BF69446A5F0752076C182EF328835 /* SegementSlideHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F710CFCF134A1BAC601DE5A2D7CD463 /* SegementSlideHeaderView.swift */; };
+		4F4BB5E2329D4313C7D25C3CF1685F82 /* SegementSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3379B30ED15C4AFE1888AD14EF55AAD2 /* SegementSlideViewController.swift */; };
+		53CE84C45BC5CD69C314C5E86FD11E62 /* SegementSlideViewController+scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A4D641224CBC5FE80CAE90B9DE0608 /* SegementSlideViewController+scroll.swift */; };
+		5865677DC43EBE155AB3A7D559739C42 /* Pods-TwitterEffectDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C71B6002DE74F6BE19728379F605B455 /* Pods-TwitterEffectDemo-dummy.m */; };
+		5D8600F3A6D387EA3D1903CEE5293FC3 /* UIView+Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895FBBC3966CC70149407D4EC570589C /* UIView+Constraint.swift */; };
+		641F4C4467F909199F37583E90C1C27F /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94146966DF60FA162D7D9771F7E3FBA /* BadgeView.swift */; };
+		7A7BB55C7393CE58A99153CC1F1D805D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7B0B446B358FFBEF034F856972B205B1 /* SegementSlideScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3592FA179B378C9D1F0799D8C82413 /* SegementSlideScrollView.swift */; };
+		8E74E901D2A9D55F03E97872929E9117 /* SegementSlideContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F99EF205ACF292FFBF172BE0F7D5592 /* SegementSlideContentView.swift */; };
+		9A171CE63E2E62B1D1FFA30280B84379 /* SegementSlideSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D03CAE988D0B95D26948E8D6B66329 /* SegementSlideSwitcherView.swift */; };
+		A9B5F54A46DC6F647F5A3C2874771026 /* SegementSlideSwitcherConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B92F251406D9CB7C15FF19903C759 /* SegementSlideSwitcherConfig.swift */; };
+		B6E1C5E0D69D18E7AED16DC86B5B740D /* SegementSlideViewController+ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AD174F4C1480016C07549899EB7185 /* SegementSlideViewController+ex.swift */; };
+		DE5D4948EA1A7E8B1A2B343900A8A3A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E72B7DC335343BF5F20B883255A30E88 /* SegementSlideViewController+delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769DC29652CC233CE715993AE7653096 /* SegementSlideViewController+delegate.swift */; };
+		E975505E1F3BEBF86BBCBBEDB27386A5 /* SegementSlide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EECE5EBD6BDEF17F41DD0BC53A81B418 /* SegementSlide-dummy.m */; };
+		F4CF34A534BF0B91A405963093F81332 /* TransparentSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977154B456CF78D46BB1E28AB8FFAA71 /* TransparentSlideViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		866E83272AC62D8049C3A7AF71EBFF84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 055411E7F4239B4CB7D549A671F771E0;
+			remoteInfo = SegementSlide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A643E10FE364A1290969A9226AA83D4 /* SegementSlide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SegementSlide.release.xcconfig; sourceTree = "<group>"; };
+		27A4D641224CBC5FE80CAE90B9DE0608 /* SegementSlideViewController+scroll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SegementSlideViewController+scroll.swift"; path = "Source/General/SegementSlideViewController+scroll.swift"; sourceTree = "<group>"; };
+		2F00E82610DEF1DDE4F49BE66C260920 /* Pods-TwitterEffectDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterEffectDemo-Info.plist"; sourceTree = "<group>"; };
+		2F3592FA179B378C9D1F0799D8C82413 /* SegementSlideScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegementSlideScrollView.swift; path = Source/General/SegementSlideScrollView.swift; sourceTree = "<group>"; };
+		3379B30ED15C4AFE1888AD14EF55AAD2 /* SegementSlideViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegementSlideViewController.swift; path = Source/General/SegementSlideViewController.swift; sourceTree = "<group>"; };
+		42680C948568347510E3E5881F7FDB51 /* SegementSlide */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SegementSlide; path = SegementSlide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		490B92F251406D9CB7C15FF19903C759 /* SegementSlideSwitcherConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegementSlideSwitcherConfig.swift; path = Source/Segement/SegementSlideSwitcherConfig.swift; sourceTree = "<group>"; };
+		52DD30200B6D043D47FE3C24AB8A828D /* Pods-TwitterEffectDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterEffectDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		65AD174F4C1480016C07549899EB7185 /* SegementSlideViewController+ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SegementSlideViewController+ex.swift"; path = "Source/General/SegementSlideViewController+ex.swift"; sourceTree = "<group>"; };
+		662C030C9F7D5A2863A0D1E2B1DE8C61 /* SegementSlideViewController+setup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SegementSlideViewController+setup.swift"; path = "Source/General/SegementSlideViewController+setup.swift"; sourceTree = "<group>"; };
+		727C5B33565A705EFF71C91D8593F2ED /* SegementSlide-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SegementSlide-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74B693145A01BB75A2EE716E4DB184EA /* Pods-TwitterEffectDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitterEffectDemo-umbrella.h"; sourceTree = "<group>"; };
+		769DC29652CC233CE715993AE7653096 /* SegementSlideViewController+delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SegementSlideViewController+delegate.swift"; path = "Source/General/SegementSlideViewController+delegate.swift"; sourceTree = "<group>"; };
+		79D03CAE988D0B95D26948E8D6B66329 /* SegementSlideSwitcherView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegementSlideSwitcherView.swift; path = Source/Segement/SegementSlideSwitcherView.swift; sourceTree = "<group>"; };
+		7B6A9B09C3A2C7E1D486212B04E3BEE5 /* SegementSlide.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SegementSlide.modulemap; sourceTree = "<group>"; };
+		7F710CFCF134A1BAC601DE5A2D7CD463 /* SegementSlideHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegementSlideHeaderView.swift; path = Source/Header/SegementSlideHeaderView.swift; sourceTree = "<group>"; };
+		7F99EF205ACF292FFBF172BE0F7D5592 /* SegementSlideContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegementSlideContentView.swift; path = Source/Content/SegementSlideContentView.swift; sourceTree = "<group>"; };
+		895FBBC3966CC70149407D4EC570589C /* UIView+Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Constraint.swift"; path = "Source/Utility/UIView+Constraint.swift"; sourceTree = "<group>"; };
+		96BAD920774AACF253248DC07DA9A320 /* String+Bounding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Bounding.swift"; path = "Source/Utility/String+Bounding.swift"; sourceTree = "<group>"; };
+		977154B456CF78D46BB1E28AB8FFAA71 /* TransparentSlideViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransparentSlideViewController.swift; path = Source/General/TransparentSlideViewController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A71E83D07D8F7A888D28839A8703A2E1 /* Pods-TwitterEffectDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitterEffectDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A94146966DF60FA162D7D9771F7E3FBA /* BadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BadgeView.swift; path = Source/Badge/BadgeView.swift; sourceTree = "<group>"; };
+		C71B6002DE74F6BE19728379F605B455 /* Pods-TwitterEffectDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitterEffectDemo-dummy.m"; sourceTree = "<group>"; };
+		CA81799B17DD36DA20011D04AC4C7AF1 /* Pods-TwitterEffectDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitterEffectDemo.modulemap"; sourceTree = "<group>"; };
+		CEECE03ABE926BD828508F4051D358FE /* SegementSlide-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegementSlide-umbrella.h"; sourceTree = "<group>"; };
+		E1AB0714A3E44696D6B612F057BAD0B4 /* Pods-TwitterEffectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterEffectDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E6349E0D37C934C626E6C900C39307E6 /* SegementSlide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SegementSlide.debug.xcconfig; sourceTree = "<group>"; };
+		EECE5EBD6BDEF17F41DD0BC53A81B418 /* SegementSlide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SegementSlide-dummy.m"; sourceTree = "<group>"; };
+		F0658151A909C4A844BE21A5A10CB630 /* Pods-TwitterEffectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterEffectDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F6788CAA61DF8F65EB013A672A9615FF /* SegementSlide-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegementSlide-prefix.pch"; sourceTree = "<group>"; };
+		F7D80BB8CB6B11C077A026E9F874DB8A /* Pods-TwitterEffectDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TwitterEffectDemo"; path = Pods_TwitterEffectDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182E878F410E978E9D44941AE7927411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5D4948EA1A7E8B1A2B343900A8A3A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC333DF390751B75A3718B38C11A87C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7BB55C7393CE58A99153CC1F1D805D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004AA9C12A82D9B871A69357B331BCE4 /* Pods-TwitterEffectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CA81799B17DD36DA20011D04AC4C7AF1 /* Pods-TwitterEffectDemo.modulemap */,
+				A71E83D07D8F7A888D28839A8703A2E1 /* Pods-TwitterEffectDemo-acknowledgements.markdown */,
+				52DD30200B6D043D47FE3C24AB8A828D /* Pods-TwitterEffectDemo-acknowledgements.plist */,
+				C71B6002DE74F6BE19728379F605B455 /* Pods-TwitterEffectDemo-dummy.m */,
+				2F00E82610DEF1DDE4F49BE66C260920 /* Pods-TwitterEffectDemo-Info.plist */,
+				74B693145A01BB75A2EE716E4DB184EA /* Pods-TwitterEffectDemo-umbrella.h */,
+				E1AB0714A3E44696D6B612F057BAD0B4 /* Pods-TwitterEffectDemo.debug.xcconfig */,
+				F0658151A909C4A844BE21A5A10CB630 /* Pods-TwitterEffectDemo.release.xcconfig */,
+			);
+			name = "Pods-TwitterEffectDemo";
+			path = "Target Support Files/Pods-TwitterEffectDemo";
+			sourceTree = "<group>";
+		};
+		47EAD23A501502E45DA2D77FB6484657 /* SegementSlide */ = {
+			isa = PBXGroup;
+			children = (
+				A94146966DF60FA162D7D9771F7E3FBA /* BadgeView.swift */,
+				7F99EF205ACF292FFBF172BE0F7D5592 /* SegementSlideContentView.swift */,
+				7F710CFCF134A1BAC601DE5A2D7CD463 /* SegementSlideHeaderView.swift */,
+				2F3592FA179B378C9D1F0799D8C82413 /* SegementSlideScrollView.swift */,
+				490B92F251406D9CB7C15FF19903C759 /* SegementSlideSwitcherConfig.swift */,
+				79D03CAE988D0B95D26948E8D6B66329 /* SegementSlideSwitcherView.swift */,
+				3379B30ED15C4AFE1888AD14EF55AAD2 /* SegementSlideViewController.swift */,
+				769DC29652CC233CE715993AE7653096 /* SegementSlideViewController+delegate.swift */,
+				65AD174F4C1480016C07549899EB7185 /* SegementSlideViewController+ex.swift */,
+				27A4D641224CBC5FE80CAE90B9DE0608 /* SegementSlideViewController+scroll.swift */,
+				662C030C9F7D5A2863A0D1E2B1DE8C61 /* SegementSlideViewController+setup.swift */,
+				96BAD920774AACF253248DC07DA9A320 /* String+Bounding.swift */,
+				977154B456CF78D46BB1E28AB8FFAA71 /* TransparentSlideViewController.swift */,
+				895FBBC3966CC70149407D4EC570589C /* UIView+Constraint.swift */,
+				D83A0C2C3EA7FC178AE8E2B029DACEA2 /* Support Files */,
+			);
+			name = SegementSlide;
+			path = SegementSlide;
+			sourceTree = "<group>";
+		};
+		4BAB57485267A84CA611E5E9AD1DE60E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				004AA9C12A82D9B871A69357B331BCE4 /* Pods-TwitterEffectDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61BAD92568FA7027DD62408662D07E67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47EAD23A501502E45DA2D77FB6484657 /* SegementSlide */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				61BAD92568FA7027DD62408662D07E67 /* Pods */,
+				FB761AD58D75FABB37F601E5BC2F62D4 /* Products */,
+				4BAB57485267A84CA611E5E9AD1DE60E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D83A0C2C3EA7FC178AE8E2B029DACEA2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B6A9B09C3A2C7E1D486212B04E3BEE5 /* SegementSlide.modulemap */,
+				EECE5EBD6BDEF17F41DD0BC53A81B418 /* SegementSlide-dummy.m */,
+				727C5B33565A705EFF71C91D8593F2ED /* SegementSlide-Info.plist */,
+				F6788CAA61DF8F65EB013A672A9615FF /* SegementSlide-prefix.pch */,
+				CEECE03ABE926BD828508F4051D358FE /* SegementSlide-umbrella.h */,
+				E6349E0D37C934C626E6C900C39307E6 /* SegementSlide.debug.xcconfig */,
+				0A643E10FE364A1290969A9226AA83D4 /* SegementSlide.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SegementSlide";
+			sourceTree = "<group>";
+		};
+		FB761AD58D75FABB37F601E5BC2F62D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D80BB8CB6B11C077A026E9F874DB8A /* Pods-TwitterEffectDemo */,
+				42680C948568347510E3E5881F7FDB51 /* SegementSlide */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E1DB628B112CD4019036768E264338A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E076CD8ACD73C1B4EE835758D36E27 /* SegementSlide-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D02BF96A6095636DE8BAC323C913D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E86E597AF351B1C7CBFC4ADE69AFEE /* Pods-TwitterEffectDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		055411E7F4239B4CB7D549A671F771E0 /* SegementSlide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF27BB5BAE7827187B9660E46B423C7 /* Build configuration list for PBXNativeTarget "SegementSlide" */;
+			buildPhases = (
+				2E1DB628B112CD4019036768E264338A /* Headers */,
+				E11D001ADAB3F5CD0FEE1F7EB220EA99 /* Sources */,
+				182E878F410E978E9D44941AE7927411 /* Frameworks */,
+				B0D627956070EB7020F34451BC38E354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegementSlide;
+			productName = SegementSlide;
+			productReference = 42680C948568347510E3E5881F7FDB51 /* SegementSlide */;
+			productType = "com.apple.product-type.framework";
+		};
+		5BFF03EA28387980F29C7F259DF4CE83 /* Pods-TwitterEffectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D8B4A54967B20C000EE961BFDA0C70 /* Build configuration list for PBXNativeTarget "Pods-TwitterEffectDemo" */;
+			buildPhases = (
+				37D02BF96A6095636DE8BAC323C913D6 /* Headers */,
+				D843ED949C06BC35468F988142DA1D83 /* Sources */,
+				EDC333DF390751B75A3718B38C11A87C /* Frameworks */,
+				7403BE61DD994BF8CEFA77B1905DA67D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10086E5C08A606BF56D94A8D9C54DFE /* PBXTargetDependency */,
+			);
+			name = "Pods-TwitterEffectDemo";
+			productName = Pods_TwitterEffectDemo;
+			productReference = F7D80BB8CB6B11C077A026E9F874DB8A /* Pods-TwitterEffectDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FB761AD58D75FABB37F601E5BC2F62D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BFF03EA28387980F29C7F259DF4CE83 /* Pods-TwitterEffectDemo */,
+				055411E7F4239B4CB7D549A671F771E0 /* SegementSlide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7403BE61DD994BF8CEFA77B1905DA67D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D627956070EB7020F34451BC38E354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D843ED949C06BC35468F988142DA1D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5865677DC43EBE155AB3A7D559739C42 /* Pods-TwitterEffectDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11D001ADAB3F5CD0FEE1F7EB220EA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641F4C4467F909199F37583E90C1C27F /* BadgeView.swift in Sources */,
+				E975505E1F3BEBF86BBCBBEDB27386A5 /* SegementSlide-dummy.m in Sources */,
+				8E74E901D2A9D55F03E97872929E9117 /* SegementSlideContentView.swift in Sources */,
+				1C6BF69446A5F0752076C182EF328835 /* SegementSlideHeaderView.swift in Sources */,
+				7B0B446B358FFBEF034F856972B205B1 /* SegementSlideScrollView.swift in Sources */,
+				A9B5F54A46DC6F647F5A3C2874771026 /* SegementSlideSwitcherConfig.swift in Sources */,
+				9A171CE63E2E62B1D1FFA30280B84379 /* SegementSlideSwitcherView.swift in Sources */,
+				4F4BB5E2329D4313C7D25C3CF1685F82 /* SegementSlideViewController.swift in Sources */,
+				E72B7DC335343BF5F20B883255A30E88 /* SegementSlideViewController+delegate.swift in Sources */,
+				B6E1C5E0D69D18E7AED16DC86B5B740D /* SegementSlideViewController+ex.swift in Sources */,
+				53CE84C45BC5CD69C314C5E86FD11E62 /* SegementSlideViewController+scroll.swift in Sources */,
+				076CCE111CB3E6CCC5C2B10755FDEC02 /* SegementSlideViewController+setup.swift in Sources */,
+				0663B58D435C132AEDD0F2BC9EFF3742 /* String+Bounding.swift in Sources */,
+				F4CF34A534BF0B91A405963093F81332 /* TransparentSlideViewController.swift in Sources */,
+				5D8600F3A6D387EA3D1903CEE5293FC3 /* UIView+Constraint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10086E5C08A606BF56D94A8D9C54DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SegementSlide;
+			target = 055411E7F4239B4CB7D549A671F771E0 /* SegementSlide */;
+			targetProxy = 866E83272AC62D8049C3A7AF71EBFF84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		117B24CB682D11414B12899474EB00ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0658151A909C4A844BE21A5A10CB630 /* Pods-TwitterEffectDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterEffectDemo/Pods-TwitterEffectDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterEffectDemo/Pods-TwitterEffectDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28D6FDA6BD9D7E072C4CA76E868EC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A643E10FE364A1290969A9226AA83D4 /* SegementSlide.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SegementSlide/SegementSlide-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SegementSlide/SegementSlide-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SegementSlide/SegementSlide.modulemap";
+				PRODUCT_MODULE_NAME = SegementSlide;
+				PRODUCT_NAME = SegementSlide;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		70F80F1CCCF104D8C0F2901F8436E9A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6349E0D37C934C626E6C900C39307E6 /* SegementSlide.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SegementSlide/SegementSlide-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SegementSlide/SegementSlide-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SegementSlide/SegementSlide.modulemap";
+				PRODUCT_MODULE_NAME = SegementSlide;
+				PRODUCT_NAME = SegementSlide;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78FE63A4FE107E2201E8D9972F3A02DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1AB0714A3E44696D6B612F057BAD0B4 /* Pods-TwitterEffectDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterEffectDemo/Pods-TwitterEffectDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterEffectDemo/Pods-TwitterEffectDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26D8B4A54967B20C000EE961BFDA0C70 /* Build configuration list for PBXNativeTarget "Pods-TwitterEffectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FE63A4FE107E2201E8D9972F3A02DE /* Debug */,
+				117B24CB682D11414B12899474EB00ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF27BB5BAE7827187B9660E46B423C7 /* Build configuration list for PBXNativeTarget "SegementSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F80F1CCCF104D8C0F2901F8436E9A5 /* Debug */,
+				28D6FDA6BD9D7E072C4CA76E868EC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
